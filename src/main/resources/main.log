@@ -1,0 +1,7 @@
+2023年11月30日00:11:98    INFO    org.springframework.boot.StartupInfoLogger.main:51    Starting KChatApplicationTests using Java 17.0.9 with PID 5576 (started by 26474 in D:\Code\Java\projects\K_chat)
+2023年11月30日00:11:98    INFO    org.springframework.boot.SpringApplication.main:634    No active profile set, falling back to 1 default profile: "default"
+2023年11月30日00:11:87    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    Can not find table primary key in Class: "org.kingfen.k_chat.Bean.SmS".
+2023年11月30日00:11:87    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    class org.kingfen.k_chat.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023年11月30日00:11:97    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    Can not find table primary key in Class: "org.kingfen.k_chat.Bean.User".
+2023年11月30日00:11:97    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    class org.kingfen.k_chat.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2023年11月30日00:11:37    INFO    org.springframework.boot.StartupInfoLogger.main:57    Started KChatApplicationTests in 1.697 seconds (process running for 2.526)
