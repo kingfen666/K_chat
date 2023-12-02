@@ -1,7 +1,7 @@
 logging:
   pattern:
-    file: "%d{yyyy年MM月dd日HH:MM:SS}    %level    %class.%thread:%line    %m%n"
-    console: "%d{yyyy年MM月dd日HH:MM:SS}    %level    %class.%thread:%line    %m%n"
+    file: "%d{yyyy年MM月dd日HH:MM:SS}    %level    %class.%thread:%line    {{%m}}%n"
+    console: "%d{yyyy年MM月dd日HH:MM:SS}    %level    %class.%thread:%line    {{%m}}%n"
   file:
     name: src/main/resources/main.log
 spring:

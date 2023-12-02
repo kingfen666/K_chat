@@ -1,4 +1,4 @@
-package org.kingfen.k_chat;
+package org.kingfen.k_chat.sql;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
