@@ -1,4 +1,4 @@
-package org.kingfen.k_chat.Bean;
+package org.kingfen.k_chat.sql.Bean;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
@@ -9,5 +9,4 @@ import lombok.Data;
 public class SmS {
     private String mail;
     private Integer code;
-    private Long time;
 }

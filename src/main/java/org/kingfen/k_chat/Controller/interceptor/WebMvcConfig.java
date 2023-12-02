@@ -10,7 +10,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new CodeInterceptor())
-                .addPathPatterns("")
-                .excludePathPatterns("/mail");
+                .addPathPatterns("/mail")
+                .excludePathPatterns("");
     }
 }

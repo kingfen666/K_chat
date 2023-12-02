@@ -367,3 +367,138 @@
 2023年12月02日13:12:70    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplicationTests in 1.726 seconds (process running for 2.548)}}
 2023年12月02日13:12:37    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:350    {{HikariPool-1 - Shutdown initiated...}}
 2023年12月02日13:12:38    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:352    {{HikariPool-1 - Shutdown completed.}}
+2023年12月02日13:12:63    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplication using Java 17.0.9 with PID 22132 (D:\Code\Java\projects\K_chat\target\classes started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023年12月02日13:12:63    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023年12月02日13:12:37    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:108    {{Tomcat initialized with port(s): 8080 (http)}}
+2023年12月02日13:12:38    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting service [Tomcat]}}
+2023年12月02日13:12:38    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting Servlet engine: [Apache Tomcat/10.1.11]}}
+2023年12月02日13:12:45    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Initializing Spring embedded WebApplicationContext}}
+2023年12月02日13:12:45    INFO    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.main:291    {{Root WebApplicationContext: initialization completed in 783 ms}}
+2023年12月02日13:12:59    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.Bean.SmS".}}
+2023年12月02日13:12:59    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:66    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.Bean.User".}}
+2023年12月02日13:12:66    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:93    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:220    {{Tomcat started on port(s): 8080 (http) with context path ''}}
+2023年12月02日13:12:93    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplication in 1.706 seconds (process running for 2.14)}}
+2023年12月02日13:12:49    INFO    org.apache.juli.logging.DirectJDKLog.http-nio-8080-exec-1:173    {{Initializing Spring DispatcherServlet 'dispatcherServlet'}}
+2023年12月02日13:12:49    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:532    {{Initializing Servlet 'dispatcherServlet'}}
+2023年12月02日13:12:49    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:554    {{Completed initialization in 1 ms}}
+2023年12月02日13:12:52    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-1:35    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:59    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:110    {{HikariPool-1 - Starting...}}
+2023年12月02日13:12:81    INFO    com.zaxxer.hikari.pool.HikariPool.http-nio-8080-exec-1:565    {{HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bbaf3b3}}
+2023年12月02日13:12:81    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:123    {{HikariPool-1 - Start completed.}}
+2023年12月02日13:12:55    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:350    {{HikariPool-1 - Shutdown initiated...}}
+2023年12月02日13:12:55    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:352    {{HikariPool-1 - Shutdown completed.}}
+2023年12月02日13:12:54    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplication using Java 17.0.9 with PID 17308 (D:\Code\Java\projects\K_chat\target\classes started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023年12月02日13:12:54    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023年12月02日13:12:30    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:108    {{Tomcat initialized with port(s): 8080 (http)}}
+2023年12月02日13:12:32    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting service [Tomcat]}}
+2023年12月02日13:12:32    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting Servlet engine: [Apache Tomcat/10.1.11]}}
+2023年12月02日13:12:38    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Initializing Spring embedded WebApplicationContext}}
+2023年12月02日13:12:38    INFO    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.main:291    {{Root WebApplicationContext: initialization completed in 804 ms}}
+2023年12月02日13:12:54    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.SmS".}}
+2023年12月02日13:12:56    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:64    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.User".}}
+2023年12月02日13:12:64    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:94    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:220    {{Tomcat started on port(s): 8080 (http) with context path ''}}
+2023年12月02日13:12:95    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplication in 1.795 seconds (process running for 2.228)}}
+2023年12月02日13:12:19    INFO    org.apache.juli.logging.DirectJDKLog.http-nio-8080-exec-1:173    {{Initializing Spring DispatcherServlet 'dispatcherServlet'}}
+2023年12月02日13:12:19    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:532    {{Initializing Servlet 'dispatcherServlet'}}
+2023年12月02日13:12:19    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:554    {{Completed initialization in 0 ms}}
+2023年12月02日13:12:24    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:110    {{HikariPool-1 - Starting...}}
+2023年12月02日13:12:45    INFO    com.zaxxer.hikari.pool.HikariPool.http-nio-8080-exec-1:565    {{HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22bc9817}}
+2023年12月02日13:12:45    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:123    {{HikariPool-1 - Start completed.}}
+2023年12月02日13:12:05    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-2:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:31    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-3:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:65    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:350    {{HikariPool-1 - Shutdown initiated...}}
+2023年12月02日13:12:65    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:352    {{HikariPool-1 - Shutdown completed.}}
+2023年12月02日13:12:64    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplication using Java 17.0.9 with PID 21004 (D:\Code\Java\projects\K_chat\target\classes started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023年12月02日13:12:64    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023年12月02日13:12:37    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:108    {{Tomcat initialized with port(s): 8080 (http)}}
+2023年12月02日13:12:38    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting service [Tomcat]}}
+2023年12月02日13:12:38    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting Servlet engine: [Apache Tomcat/10.1.11]}}
+2023年12月02日13:12:45    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Initializing Spring embedded WebApplicationContext}}
+2023年12月02日13:12:45    INFO    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.main:291    {{Root WebApplicationContext: initialization completed in 765 ms}}
+2023年12月02日13:12:59    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.SmS".}}
+2023年12月02日13:12:59    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:66    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.User".}}
+2023年12月02日13:12:66    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:95    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:220    {{Tomcat started on port(s): 8080 (http) with context path ''}}
+2023年12月02日13:12:96    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplication in 1.691 seconds (process running for 2.131)}}
+2023年12月02日13:12:81    INFO    org.apache.juli.logging.DirectJDKLog.http-nio-8080-exec-1:173    {{Initializing Spring DispatcherServlet 'dispatcherServlet'}}
+2023年12月02日13:12:82    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:532    {{Initializing Servlet 'dispatcherServlet'}}
+2023年12月02日13:12:82    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:554    {{Completed initialization in 0 ms}}
+2023年12月02日13:12:85    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-1:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:92    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:110    {{HikariPool-1 - Starting...}}
+2023年12月02日13:12:14    INFO    com.zaxxer.hikari.pool.HikariPool.http-nio-8080-exec-1:565    {{HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a19fde}}
+2023年12月02日13:12:14    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:123    {{HikariPool-1 - Start completed.}}
+2023年12月02日13:12:21    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-2:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:00    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-4:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:58    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-5:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:03    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-6:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:89    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:350    {{HikariPool-1 - Shutdown initiated...}}
+2023年12月02日13:12:89    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:352    {{HikariPool-1 - Shutdown completed.}}
+2023年12月02日13:12:86    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplication using Java 17.0.9 with PID 14228 (D:\Code\Java\projects\K_chat\target\classes started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023年12月02日13:12:87    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023年12月02日13:12:61    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:108    {{Tomcat initialized with port(s): 8080 (http)}}
+2023年12月02日13:12:62    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting service [Tomcat]}}
+2023年12月02日13:12:62    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting Servlet engine: [Apache Tomcat/10.1.11]}}
+2023年12月02日13:12:69    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Initializing Spring embedded WebApplicationContext}}
+2023年12月02日13:12:69    INFO    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.main:291    {{Root WebApplicationContext: initialization completed in 786 ms}}
+2023年12月02日13:12:84    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.SmS".}}
+2023年12月02日13:12:84    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:91    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.User".}}
+2023年12月02日13:12:91    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:18    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:220    {{Tomcat started on port(s): 8080 (http) with context path ''}}
+2023年12月02日13:12:19    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplication in 1.725 seconds (process running for 2.143)}}
+2023年12月02日13:12:47    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplication using Java 17.0.9 with PID 4408 (D:\Code\Java\projects\K_chat\target\classes started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023年12月02日13:12:48    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023年12月02日13:12:24    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:108    {{Tomcat initialized with port(s): 8080 (http)}}
+2023年12月02日13:12:25    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting service [Tomcat]}}
+2023年12月02日13:12:25    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting Servlet engine: [Apache Tomcat/10.1.11]}}
+2023年12月02日13:12:32    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Initializing Spring embedded WebApplicationContext}}
+2023年12月02日13:12:32    INFO    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.main:291    {{Root WebApplicationContext: initialization completed in 796 ms}}
+2023年12月02日13:12:45    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.SmS".}}
+2023年12月02日13:12:46    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:53    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.User".}}
+2023年12月02日13:12:53    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:80    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:220    {{Tomcat started on port(s): 8080 (http) with context path ''}}
+2023年12月02日13:12:80    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplication in 1.705 seconds (process running for 2.116)}}
+2023年12月02日13:12:49    INFO    org.apache.juli.logging.DirectJDKLog.http-nio-8080-exec-1:173    {{Initializing Spring DispatcherServlet 'dispatcherServlet'}}
+2023年12月02日13:12:49    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:532    {{Initializing Servlet 'dispatcherServlet'}}
+2023年12月02日13:12:50    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:554    {{Completed initialization in 1 ms}}
+2023年12月02日13:12:53    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-1:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:60    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:110    {{HikariPool-1 - Starting...}}
+2023年12月02日13:12:82    INFO    com.zaxxer.hikari.pool.HikariPool.http-nio-8080-exec-1:565    {{HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@526717f2}}
+2023年12月02日13:12:82    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:123    {{HikariPool-1 - Start completed.}}
+2023年12月02日13:12:66    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-2:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:11    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:350    {{HikariPool-1 - Shutdown initiated...}}
+2023年12月02日13:12:11    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:352    {{HikariPool-1 - Shutdown completed.}}
+2023年12月02日13:12:81    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplication using Java 17.0.9 with PID 10600 (D:\Code\Java\projects\K_chat\target\classes started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023年12月02日13:12:82    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023年12月02日13:12:53    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:108    {{Tomcat initialized with port(s): 8080 (http)}}
+2023年12月02日13:12:53    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting service [Tomcat]}}
+2023年12月02日13:12:53    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting Servlet engine: [Apache Tomcat/10.1.11]}}
+2023年12月02日13:12:60    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Initializing Spring embedded WebApplicationContext}}
+2023年12月02日13:12:60    INFO    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.main:291    {{Root WebApplicationContext: initialization completed in 750 ms}}
+2023年12月02日13:12:76    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.SmS".}}
+2023年12月02日13:12:76    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:83    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.User".}}
+2023年12月02日13:12:83    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023年12月02日13:12:13    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:220    {{Tomcat started on port(s): 8080 (http) with context path ''}}
+2023年12月02日13:12:13    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplication in 1.66 seconds (process running for 2.089)}}
+2023年12月02日13:12:97    INFO    org.apache.juli.logging.DirectJDKLog.http-nio-8080-exec-1:173    {{Initializing Spring DispatcherServlet 'dispatcherServlet'}}
+2023年12月02日13:12:97    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:532    {{Initializing Servlet 'dispatcherServlet'}}
+2023年12月02日13:12:98    INFO    org.springframework.web.servlet.FrameworkServlet.http-nio-8080-exec-1:554    {{Completed initialization in 1 ms}}
+2023年12月02日13:12:01    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-1:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:07    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:110    {{HikariPool-1 - Starting...}}
+2023年12月02日13:12:30    INFO    com.zaxxer.hikari.pool.HikariPool.http-nio-8080-exec-1:565    {{HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bbea13c}}
+2023年12月02日13:12:30    INFO    com.zaxxer.hikari.HikariDataSource.http-nio-8080-exec-1:123    {{HikariPool-1 - Start completed.}}
+2023年12月02日13:12:49    INFO    org.kingfen.k_chat.Controller.interceptor.CodeInterceptor.http-nio-8080-exec-2:23    {{拦截ip地址:127.0.0.1,邮箱地址2647405352@qq.com,原因:频繁发送验证码}}
+2023年12月02日13:12:71    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-4:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:33    INFO    org.kingfen.k_chat.Controller.interceptor.CodeInterceptor.http-nio-8080-exec-5:23    {{拦截ip地址:127.0.0.1,邮箱地址2647405352@qq.com,原因:频繁发送验证码}}
+2023年12月02日13:12:32    INFO    org.kingfen.k_chat.Controller.interceptor.CodeInterceptor.http-nio-8080-exec-6:23    {{拦截ip地址:127.0.0.1,邮箱地址2647405352@qq.com,原因:频繁发送验证码}}
+2023年12月02日13:12:93    INFO    org.kingfen.k_chat.Controller.interceptor.CodeInterceptor.http-nio-8080-exec-7:23    {{拦截ip地址:127.0.0.1,邮箱地址2647405352@qq.com,原因:频繁发送验证码}}
+2023年12月02日13:12:06    INFO    org.kingfen.k_chat.Controller.mail.http-nio-8080-exec-8:33    {{ip地址为:127.0.0.1的用户,向邮箱:2647405352@qq.com发送了验证码}}
+2023年12月02日13:12:12    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:350    {{HikariPool-1 - Shutdown initiated...}}
+2023年12月02日13:12:13    INFO    com.zaxxer.hikari.HikariDataSource.SpringApplicationShutdownHook:352    {{HikariPool-1 - Shutdown completed.}}

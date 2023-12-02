@@ -1,11 +1,13 @@
 package org.kingfen.k_chat.Controller.interceptor;
 
+import jakarta.servlet.ServletOutputStream;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.nio.charset.StandardCharsets;
 import java.util.HashSet;
 
 
@@ -15,12 +17,19 @@ public class CodeInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        if (hashSet.contains(request.getRemoteAddr())) {
-            log.info("拦截ip地址:{},原因:频繁发送验证码", request.getRemoteAddr());
+        String address = request.getParameter("address");
+        System.out.println(address);
+        if (hashSet.contains(address)) {
+            log.info("拦截ip地址:{},邮箱地址:{},原因:频繁发送验证码", request.getRemoteAddr(),address);
+            ServletOutputStream outputStream = response.getOutputStream();
+            outputStream.write("false".getBytes(StandardCharsets.UTF_8));
+            outputStream.flush();
+            outputStream.close();
             return false;
         }
-        hashSet.add(request.getRemoteAddr());
-        new Thread(new Deleter(request.getRemoteAddr(), hashSet)).start();
+
+        hashSet.add(address);
+        new Thread(new Deleter(address, hashSet)).start();
         return true;
     }
 }
@@ -28,8 +37,8 @@ public class CodeInterceptor implements HandlerInterceptor {
 
 class Deleter implements Runnable{
 
-    private String addr;
-    private HashSet<String> hashSet;
+    private final String addr;
+    private final HashSet<String> hashSet;
     public Deleter(String addr,HashSet<String> hashSet){
         this.addr=addr;
         this.hashSet=hashSet;
