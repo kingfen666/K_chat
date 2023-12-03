@@ -1,0 +1,20 @@
+2023å¹´12æœˆ03æ—¥11:12:11    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplication using Java 17.0.9 with PID 22908 (D:\Code\Java\projects\K_chat\target\classes started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023å¹´12æœˆ03æ—¥11:12:11    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023å¹´12æœˆ03æ—¥11:12:81    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:108    {{Tomcat initialized with port(s): 8080 (http)}}
+2023å¹´12æœˆ03æ—¥11:12:82    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting service [Tomcat]}}
+2023å¹´12æœˆ03æ—¥11:12:82    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Starting Servlet engine: [Apache Tomcat/10.1.11]}}
+2023å¹´12æœˆ03æ—¥11:12:89    INFO    org.apache.juli.logging.DirectJDKLog.main:173    {{Initializing Spring embedded WebApplicationContext}}
+2023å¹´12æœˆ03æ—¥11:12:89    INFO    org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.main:291    {{Root WebApplicationContext: initialization completed in 748 ms}}
+2023å¹´12æœˆ03æ—¥11:12:04    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.SmS".}}
+2023å¹´12æœˆ03æ—¥11:12:04    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023å¹´12æœˆ03æ—¥11:12:11    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.User".}}
+2023å¹´12æœˆ03æ—¥11:12:11    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023å¹´12æœˆ03æ—¥11:12:38    INFO    org.springframework.boot.web.embedded.tomcat.TomcatWebServer.main:220    {{Tomcat started on port(s): 8080 (http) with context path ''}}
+2023å¹´12æœˆ03æ—¥11:12:38    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplication in 1.589 seconds (process running for 2.035)}}
+2023Äê12ÔÂ03ÈÕ11:12:68    INFO    org.springframework.boot.StartupInfoLogger.main:51    {{Starting KChatApplicationTests using Java 17.0.9 with PID 14200 (started by 26474 in D:\Code\Java\projects\K_chat)}}
+2023Äê12ÔÂ03ÈÕ11:12:68    INFO    org.springframework.boot.SpringApplication.main:634    {{No active profile set, falling back to 1 default profile: "default"}}
+2023Äê12ÔÂ03ÈÕ11:12:52    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.SmS".}}
+2023Äê12ÔÂ03ÈÕ11:12:52    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.SmS ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023Äê12ÔÂ03ÈÕ11:12:59    WARN    com.baomidou.mybatisplus.core.metadata.TableInfoHelper.main:376    {{Can not find table primary key in Class: "org.kingfen.k_chat.sql.Bean.User".}}
+2023Äê12ÔÂ03ÈÕ11:12:59    WARN    com.baomidou.mybatisplus.core.injector.DefaultSqlInjector.main:52    {{class org.kingfen.k_chat.sql.Bean.User ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.}}
+2023Äê12ÔÂ03ÈÕ11:12:04    INFO    org.springframework.boot.StartupInfoLogger.main:57    {{Started KChatApplicationTests in 1.592 seconds (process running for 2.454)}}
