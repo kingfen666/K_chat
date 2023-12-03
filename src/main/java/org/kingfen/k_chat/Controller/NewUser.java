@@ -3,8 +3,12 @@ import org.kingfen.k_chat.sql.Bean.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.logging.LoggingApplicationListener;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.nio.charset.StandardCharsets;
+
 import static org.kingfen.k_chat.KChatApplication.smsmap;
 import static org.kingfen.k_chat.KChatApplication.userMap;
 @Controller
@@ -22,7 +26,7 @@ public class NewUser {
             User user = new User();
             user.setMail(mail);
             user.setUid(userMap.getID());
-            user.setPassword(password);
+            user.setPassword(DigestUtils.md5DigestAsHex(password.getBytes(StandardCharsets.UTF_8)));
             user.setUsername(username);
             user.setUsersname(name);
             userMap.insert(user);

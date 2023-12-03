@@ -22,8 +22,6 @@ public class login {
     @RequestMapping("pwdLogin")
     @ResponseBody
     public String pwd_login(String username,String password){
-        System.out.println(username);
-        System.out.println(DigestUtils.md5DigestAsHex(password.getBytes(StandardCharsets.UTF_8)));
         User login = userMap.login(username, DigestUtils.md5DigestAsHex(password.getBytes(StandardCharsets.UTF_8)));
         if (login!=null){
             return JSON.toJSONString(login);
