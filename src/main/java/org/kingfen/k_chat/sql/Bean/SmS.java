@@ -9,4 +9,5 @@ import lombok.Data;
 public class SmS {
     private String mail;
     private Integer code;
+    private Long time;
 }

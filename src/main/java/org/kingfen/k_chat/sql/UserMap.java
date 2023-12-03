@@ -9,4 +9,10 @@ import org.springframework.stereotype.Service;
 public interface UserMap extends BaseMapper<User> {
     @Select("select * from users.users where (username=#{username}||uid=#{username}||mail=#{username})&&password=#{password};")
     User login(String username,String password);
+    @Select("SELECT COUNT(*) FROM users.users;")
+    Integer getNum();
+    default Integer getID(){
+        return getNum()+10000001;
+    }
+
 }

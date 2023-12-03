@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import static org.kingfen.k_chat.KChatApplication.smsmap;
 
+import java.util.HashMap;
 import java.util.Random;
 
 @Controller
@@ -38,12 +39,11 @@ public class mail {
             }
             int code1 = Integer.parseInt(code.toString());
             SmS smS1 = smsmap.selectOne(new QueryWrapper<SmS>().eq("mail", address));
-
-
             if (smS1 == null) {
                 SmS smS = new SmS();
                 smS.setMail(address);
                 smS.setCode(code1);
+                smS.setTime(System.currentTimeMillis());
                 smsmap.insert(smS);
                 javaMailUtils.send(address, code1);
                 return "true";
@@ -51,6 +51,7 @@ public class mail {
                 SmS smS = new SmS();
                 smS.setMail(address);
                 smS.setCode(code1);
+                smS.setTime(System.currentTimeMillis());
                 smsmap.update(smS, new QueryWrapper<SmS>().eq("mail", address));
                 javaMailUtils.send(address, code1);
                 return "true";
