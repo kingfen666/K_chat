@@ -8,6 +8,6 @@ import lombok.Data;
 @TableName("sms")
 public class SmS {
     private String mail;
-    private Integer code;
+    private String code;
     private Long time;
 }

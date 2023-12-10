@@ -37,7 +37,7 @@ public class mail {
             for (int i1 = 0; i1 < 8; i1++) {
                 code.append(random.nextInt(10));
             }
-            int code1 = Integer.parseInt(code.toString());
+            String code1 = code.toString();
             SmS smS1 = smsmap.selectOne(new QueryWrapper<SmS>().eq("mail", address));
             if (smS1 == null) {
                 SmS smS = new SmS();

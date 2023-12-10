@@ -32,7 +32,7 @@ public final class JavaMailUtils {
         message = new MimeMessage(session);
     }
 
-    public void send(String address, int code) throws Exception {
+    public void send(String address, String code) throws Exception {
         message.setSubject(code + " 是你的验证码");
         message.setText("<!DOCTYPE html>\n" +
                 "<html lang=\"en\">\n" +

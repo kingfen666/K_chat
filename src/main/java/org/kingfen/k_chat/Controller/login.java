@@ -3,6 +3,7 @@ package org.kingfen.k_chat.Controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import jakarta.servlet.http.HttpServletRequest;
 import org.kingfen.k_chat.sql.Bean.SmS;
 import org.kingfen.k_chat.sql.Bean.User;
 import org.springframework.stereotype.Controller;
@@ -34,13 +35,13 @@ public class login {
         try {
             if (password.matches("[0-9]{8}")) {
                 SmS smS = smsmap.selectOne(new QueryWrapper<SmS>().eq("mail", username));//查询邮箱验证码
-                if (System.currentTimeMillis() + 10 * 60 * 1000 < smS.getTime()) {
+                if (System.currentTimeMillis() + 15 * 60 * 1000 < smS.getTime()) {
                     return "error";
                 }
-                if (smS.getCode().equals(Integer.parseInt(password))) {
+                if (smS.getCode().equals(password)) {
                     User user = userMap.selectOne(new QueryWrapper<User>().eq("mail", username));
                     if (user != null) {
-                        smS.setCode(0);
+                        smS.setCode("0");
                         smsmap.update(smS, new QueryWrapper<SmS>().eq("mail", username));
                         return JSON.toJSONString(user);
                     } else return "notExists";
