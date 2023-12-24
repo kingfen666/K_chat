@@ -1,6 +1,7 @@
 package org.kingfen.k_chat;
 
 import lombok.extern.slf4j.Slf4j;
+import org.kingfen.k_chat.sql.FriendMap;
 import org.kingfen.k_chat.sql.UserMap;
 import org.kingfen.k_chat.sql.smsMap;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,9 +15,11 @@ import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 public class KChatApplication {
    public static smsMap smsmap;
    public static UserMap userMap;
+   public static FriendMap friendMap;
 
     @Autowired
-    public void auto(smsMap smsmap,UserMap userMap){
+    public void auto(smsMap smsmap, UserMap userMap, FriendMap friendMap){
+        KChatApplication.friendMap=friendMap;
         KChatApplication.smsmap= smsmap;
         KChatApplication.userMap=userMap;
     }
