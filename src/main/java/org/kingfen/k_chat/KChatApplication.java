@@ -2,6 +2,7 @@ package org.kingfen.k_chat;
 
 import lombok.extern.slf4j.Slf4j;
 import org.kingfen.k_chat.sql.FriendMap;
+import org.kingfen.k_chat.sql.HistoryMap;
 import org.kingfen.k_chat.sql.UserMap;
 import org.kingfen.k_chat.sql.smsMap;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,9 +17,11 @@ public class KChatApplication {
    public static smsMap smsmap;
    public static UserMap userMap;
    public static FriendMap friendMap;
+   public static HistoryMap historyMap;
 
     @Autowired
-    public void auto(smsMap smsmap, UserMap userMap, FriendMap friendMap){
+    public void auto(smsMap smsmap, UserMap userMap, FriendMap friendMap,HistoryMap historyMap){
+        KChatApplication.historyMap=historyMap;
         KChatApplication.friendMap=friendMap;
         KChatApplication.smsmap= smsmap;
         KChatApplication.userMap=userMap;

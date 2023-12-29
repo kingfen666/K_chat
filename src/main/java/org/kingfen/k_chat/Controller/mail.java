@@ -38,13 +38,15 @@ public class mail {
                 code.append(random.nextInt(10));
             }
             String code1 = code.toString();
+
             SmS smS1 = smsmap.selectOne(new QueryWrapper<SmS>().eq("mail", address));
+
             if (smS1 == null) {
                 SmS smS = new SmS();
                 smS.setMail(address);
                 smS.setCode(code1);
                 smS.setTime(System.currentTimeMillis());
-                smsmap.insert(smS);
+                 smsmap.insert(smS);
                 javaMailUtils.send(address, code1);
                 return "true";
             }else {
@@ -57,6 +59,7 @@ public class mail {
                 return "true";
             }
         } catch (Exception e) {
+            e.printStackTrace();
             return "false";
         }
     }
